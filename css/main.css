@@ -127,7 +127,14 @@ marquee {
   display: inline-block;
 }
 
-
+.container-buttons {
+    font-size: 0;
+	content: "";
+display: inline-block;
+width: 35%;
+height: 0px;
+	
+}
 @keyframes colorRotate {
   from {
     color: #000000;
